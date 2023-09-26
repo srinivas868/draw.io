@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T18:32:40.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="dyH34PpmCBa6PQdSRHt4" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T18:51:10.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="S9--VJA2mUZpKtH0XLzF" version="21.8.2" type="github">
   <diagram name="Page-1" id="dAORpLAhu03GmsztZ9Ba">
     <mxGraphModel dx="2001" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -7,6 +7,15 @@
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-2" target="RVPC2M0uOGUdmJR0cu2y-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-2" target="RVPC2M0uOGUdmJR0cu2y-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="280" />
+              <mxPoint x="290" y="880" />
+              <mxPoint x="383" y="880" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-2" value="Execute Pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -22,13 +31,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-8" value="Execute Load shedding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="310" y="370" width="150" height="60" as="geometry" />
+          <mxGeometry x="305" y="360" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-9" target="RVPC2M0uOGUdmJR0cu2y-12">
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-9" target="RVPC2M0uOGUdmJR0cu2y-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-9" value="Execute Load revival" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="325" y="900" width="150" height="60" as="geometry" />
+          <mxGeometry x="310" y="910" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-10" target="RVPC2M0uOGUdmJR0cu2y-17">
           <mxGeometry relative="1" as="geometry" />
@@ -47,51 +56,66 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-10" value="Perform Health assessment" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="327.5" y="475" width="115" height="110" as="geometry" />
+          <mxGeometry x="322.5" y="475" width="115" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-30" target="RVPC2M0uOGUdmJR0cu2y-21">
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-12" target="RVPC2M0uOGUdmJR0cu2y-21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-43" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RVPC2M0uOGUdmJR0cu2y-37">
+          <mxGeometry x="-0.2667" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-12" target="RVPC2M0uOGUdmJR0cu2y-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-48" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RVPC2M0uOGUdmJR0cu2y-47">
+          <mxGeometry x="-0.159" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-12" value="Perform Health assessments" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="1015" width="115" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-13" target="RVPC2M0uOGUdmJR0cu2y-9">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="325" y="1180" width="115" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-13" value="Trigger Load shedding" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="325" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-17" value="Update Metric bucket dictionary" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-17" value="Add health assessment record" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-21" target="RVPC2M0uOGUdmJR0cu2y-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-21" value="Check if Load revival possible" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="1330" width="115" height="110" as="geometry" />
+          <mxGeometry x="325" y="1350" width="115" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-23" value="Trigger Load revival" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1500" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RVPC2M0uOGUdmJR0cu2y-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-25" target="RVPC2M0uOGUdmJR0cu2y-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-25" value="Check if Load shedding possible" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="327.5" y="620" width="115" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-12" target="RVPC2M0uOGUdmJR0cu2y-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="1125" as="sourcePoint" />
-            <mxPoint x="400" y="1330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-32" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RVPC2M0uOGUdmJR0cu2y-31">
-          <mxGeometry x="-0.4182" y="-2" relative="1" as="geometry">
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-45" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RVPC2M0uOGUdmJR0cu2y-27">
+          <mxGeometry y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RVPC2M0uOGUdmJR0cu2y-30" value="Check if last x number of buckets shows green" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="1180" width="115" height="110" as="geometry" />
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-25" value="Check if Load shedding possible" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="640" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVPC2M0uOGUdmJR0cu2y-30" target="RVPC2M0uOGUdmJR0cu2y-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-42" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RVPC2M0uOGUdmJR0cu2y-36">
+          <mxGeometry x="-0.5048" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-30" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Check if last x number of health assessment records shows green&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="990" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RVPC2M0uOGUdmJR0cu2y-38" value="Add health assessment record" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
