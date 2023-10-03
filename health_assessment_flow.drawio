@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T07:19:36.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" version="21.8.2" etag="UtOvjlNdgjWb5RCFh8DZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T07:35:31.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="1Cd8Fz5mZUyrzTTHmenc" version="21.8.2" type="github">
   <diagram name="Page-1" id="CKcbLUXGOx12zwsdC1VI">
-    <mxGraphModel>
+    <mxGraphModel dx="3706" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yBRLWsJs8K0jrjsA6wrS-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBRLWsJs8K0jrjsA6wrS-1" target="yBRLWsJs8K0jrjsA6wrS-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="380" />
+              <mxPoint x="60" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-30" value="Get health assessment status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yBRLWsJs8K0jrjsA6wrS-28">
+          <mxGeometry x="-0.0842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-1" value="MetricCacheManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-2" value="MetricTrigger [EvaluateCurrentHealth]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBRLWsJs8K0jrjsA6wrS-4" target="yBRLWsJs8K0jrjsA6wrS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-4" value="PipeAction [LoadRevival]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-8" value="ReliableDictionary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-9" value="MetricTrigger [EvaluatePastHealth]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBRLWsJs8K0jrjsA6wrS-11" target="yBRLWsJs8K0jrjsA6wrS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-11" value="PipeAction [LoadShedding]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBRLWsJs8K0jrjsA6wrS-20" target="yBRLWsJs8K0jrjsA6wrS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBRLWsJs8K0jrjsA6wrS-20" target="yBRLWsJs8K0jrjsA6wrS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-20" value="Pipeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yBRLWsJs8K0jrjsA6wrS-2" target="yBRLWsJs8K0jrjsA6wrS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-29" value="Update health assessment status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yBRLWsJs8K0jrjsA6wrS-27">
+          <mxGeometry x="-0.0836" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBRLWsJs8K0jrjsA6wrS-31" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="460" width="60" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
